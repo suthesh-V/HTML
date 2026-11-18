@@ -1,0 +1,31 @@
+<head>
+    <title>Feed back page</title>
+    <link rel="stylesheet" href="../static/test.css">
+</head>
+<body>
+        <div class="form">  
+    <form>
+        <h1 id="under">FeedBack for Class</h1>
+        <label>Name:-<input type="text" name="name" placeholder="Enter your name"></label><br><br>
+        <label>Email:-<input type="email" name="email" placeholder="Enter your Email"></label><br><br>
+        <h3>Class is satisfied</h3>
+        <input type="radio" name="agree" value="yes">yes
+        <input type="radio" name="agree" value="No">No<br><br>
+        <label for="FeedBack">FeedBack</label>
+        <textarea id="FeedBack" name="FeedBack" rows="5" cols="30" placeholder="Enter your feedback"></textarea><br><br>
+        <button type="button">Sumit Feedback</button>
+    </form>
+        </div>
+</body>
+<style>
+  .form{
+   display: flex;
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+#under{
+   text-decoration: underline;
+}
+</style>
