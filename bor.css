@@ -1,0 +1,15 @@
+.bor{
+    box-sizing: border-box;
+    border: 3px solid navy;
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+    margin right: 10px;
+}
+.card{
+    box-sizing: border-box;
+    border: 3px solid red;
+    width: 200px;
+    height: 300px;
+    margin right: 10px;
+}
